@@ -10,4 +10,4 @@ with open('ip.txt','r') as f:
 		print s.content
 		ip=f.readline().replace('\n','')
 		time.sleep(1)
-print "That's all"
+raw_input("That's all!")
